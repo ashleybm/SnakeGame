@@ -2,6 +2,7 @@
 Ashley Baker 
 Attempt at a Snake Game
 8/31/2017
+Modified 3/18/2019
 */
 
 #include <iostream>
@@ -52,6 +53,7 @@ void logic() {
 
 int main() {
 	setup();
+	//Main Statement While Loop
 	while (!gameOver) {
 		draw();
 		input();

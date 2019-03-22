@@ -2,12 +2,11 @@
 Ashley Baker 
 Attempt at a Snake Game
 8/31/2017
-Modified 3/21/2019
 */
 
 #include <iostream>
 using namespace std;
-bool gameOver;
+bool gameOver, gameStart;
 const int width = 20, height = 20;
 int x, y, fruitX, fruitY, score;
 enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN };
